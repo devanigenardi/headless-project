@@ -1,0 +1,51 @@
+// src/components/Nav/Nav.module.scss
+
+.nav {
+  background-color: #111827;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 3rem;
+  width: auto;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  
+  &:hover {
+    color: #60a5fa;
+  }
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.875rem;
+    
+    &:hover {
+      color: #60a5fa;
+    }
+  }
+}
