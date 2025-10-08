@@ -3,7 +3,7 @@
 import { client } from '@/lib/sanity'
 import Nav from '@/app/components/Nav/Nav'
 
-
+export const revalidate = 30;
 
 export default async function Home() {
   const settings = await client.fetch(`*[_type == "settings"][0]`)
