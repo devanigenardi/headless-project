@@ -1,8 +1,8 @@
-// studio/schemaTypes/home.ts
+// studio/schemaTypes/about.ts
 
 export default {
-  name: 'home',
-  title: 'Home Page',
+  name: 'about',
+  title: 'About Page',
   type: 'document',
   fields: [
     {

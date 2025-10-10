@@ -1,5 +1,6 @@
 import settings from './settings'
-import page from './page'
+import about from './about'
 import home from './home'
+import contact from './contact'
 
-export const schemaTypes = [settings, page, home]
+export const schemaTypes = [settings, about, home, contact]

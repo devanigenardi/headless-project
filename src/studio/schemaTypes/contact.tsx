@@ -1,8 +1,8 @@
-// studio/schemaTypes/home.ts
+// studio/schemaTypes/contact.ts
 
 export default {
-  name: 'home',
-  title: 'Home Page',
+  name: 'contact',
+  title: 'Contact Page',
   type: 'document',
   fields: [
     {

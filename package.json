@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@portabletext/react": "^4.0.3",
     "@sanity/image-url": "^1.2.0",
     "next": "15.5.4",
     "next-sanity": "^11.4.2",
